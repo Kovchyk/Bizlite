@@ -1,0 +1,75 @@
+.menu-header {
+	width: 100%;
+}
+.ul-wrapper .list li span {
+	font-size: 42px;
+	line-height: 44px;
+}
+.description {
+	padding: 60px 0 0;
+}
+.block, .block:last-child  {
+	width: 48%;
+	padding: 0 0 60px 5%;
+}
+.jcarousel-wrapper .h2-holder {
+	padding: 19px 1% 15px;
+}
+.jcarousel-control-prev {
+	right: 45px;
+}
+.jcarousel-control-next {
+	right: 10px;
+}
+.info {
+	padding: 19px 1% 41px;
+}
+.download p {
+	width: 60%;
+}
+footer {
+	padding: 30px 1% 43px;
+}
+footer .about-us {
+	width: 40%;
+	margin: 0 4.1% 0 2%;
+}
+footer .explore {
+	margin: 0 1.5% 0 0;
+}
+footer .browse {
+	margin: 0 1.5% 0 0;
+    width: 17%;
+}
+footer .contact-us {
+	width: 20%;
+	margin: 0;
+}
+footer .connect {
+	width: 100%;
+	padding: 15px 0 0;
+}
+@media screen and (min-width: 764px) and (max-width: 828px) {
+	.ul-wrapper .list li span {
+		font-size: 38px;
+		line-height: 47px;
+	}
+}
+@media screen and (min-width: 680px) and (max-width: 765px) {
+	.ul-wrapper .list li span {
+		font-size: 34px;
+		line-height: 43px;
+	}
+	footer .contact-us {
+		width: 22%;
+		margin: 0;
+	}
+}
+/*--------------------------Portfolio page-------------------------*/
+.tab {
+	width: 80%;
+	margin: 0 auto;
+}
+.pics li, .pics li:nth-child(4n) {
+	margin: 40px 0 0 40px;
+}
